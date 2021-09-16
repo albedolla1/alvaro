@@ -1,0 +1,6 @@
+admin login -> add, edit, delete, [Done]
+Homepage -> all, will have all the links for other pages [Done]
+For mobile -> Item and location is not needed for every item [Done]
+All Button [Done]
+Collapse [Pending]
+Not logged in user can details[Done]

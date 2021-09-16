@@ -1,0 +1,1427 @@
+[
+  {
+    "model": "home.StorageSixA",
+    "pk": 1,
+    "fields": { "item": "duoderm dressing", "location": "aa1, aa2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 2,
+    "fields": {
+      "item": "vaseline / petroleum gauze dressing",
+      "location": "aa2"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 3,
+    "fields": { "item": "aquacel dressing", "location": "aa3, aa4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 4,
+    "fields": { "item": "medihoney honey tube/ dressing", "location": "aa5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 5,
+    "fields": { "item": "kling bandage", "location": "aa6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 6,
+    "fields": { "item": "biopatch chg disk", "location": "aa7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 7,
+    "fields": { "item": "detachol adhesive remover", "location": "aa7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 8,
+    "fields": { "item": "adaptic oil emulsion dressing", "location": "aa8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 9,
+    "fields": { "item": "tegaderm dressing", "location": "aa9, aa10" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 10,
+    "fields": { "item": "allevyn foam dressing 4x4 & 6x6", "location": "A1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 11,
+    "fields": { "item": "mepilex heel sacrum dressing", "location": "A1, B1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 12,
+    "fields": { "item": "gauze 2x2 , 4x4", "location": "A2, A3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 13,
+    "fields": { "item": "micropore tape 3in", "location": "A2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 14,
+    "fields": { "item": "abd pad dressing", "location": "A4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 15,
+    "fields": { "item": "split gauze dressing 4x4", "location": "A4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 16,
+    "fields": { "item": "mepilex lite 4x4 dressing", "location": "A5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 17,
+    "fields": { "item": "mepitel one dressing", "location": "A5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 18,
+    "fields": { "item": "chloraprep CHG skin prep", "location": "A5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 19,
+    "fields": { "item": "ACE elastic bandage wrap", "location": "A6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 20,
+    "fields": { "item": "interdry cloth", "location": "A6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 21,
+    "fields": { "item": "central line dressing change kit", "location": "A7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 22,
+    "fields": {
+      "item": "PPE personal protective equipment kit",
+      "location": "A7"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 23,
+    "fields": { "item": "hydrogen peroxide solution", "location": "A7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 24,
+    "fields": { "item": "kerlix roll bandage", "location": "A8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 25,
+    "fields": { "item": "wound vac canister", "location": "B1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 26,
+    "fields": { "item": "wound measuring guide", "location": "B2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 27,
+    "fields": { "item": "tape", "location": "B2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 28,
+    "fields": { "item": "skin barrier wipe", "location": "B3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 29,
+    "fields": { "item": "microfoam tape", "location": "B3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 30,
+    "fields": { "item": "card magnifier", "location": "B3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 31,
+    "fields": { "item": "suture removal kit", "location": "B4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 32,
+    "fields": { "item": "staple remover kit", "location": "B4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 33,
+    "fields": { "item": "steri strip", "location": "B4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 34,
+    "fields": { "item": "iodine packet solution and swabs", "location": "B5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 35,
+    "fields": {
+      "item": "chg chlorhexidine gluconate solution",
+      "location": "B6"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 36,
+    "fields": { "item": "vashe wound solution", "location": "B6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 37,
+    "fields": { "item": "disposable sterile towel drape", "location": "B6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 38,
+    "fields": { "item": "underpad", "location": "B6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 39,
+    "fields": { "item": "biohazard specimen bag", "location": "B7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 40,
+    "fields": { "item": "sterile specimen container", "location": "B7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 41,
+    "fields": { "item": "diaper brief depends", "location": "B8, C8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 42,
+    "fields": { "item": "coude foley catheter 14F & 16F", "location": "cc1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 43,
+    "fields": { "item": "latex 2 way foley catheter 14F", "location": "cc2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 44,
+    "fields": { "item": "silicone 2 way foley catheter 16F", "location": "cc2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 45,
+    "fields": { "item": "catheter plug", "location": "cc3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 46,
+    "fields": { "item": "catheter leg strap", "location": "cc3, cc5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 47,
+    "fields": { "item": "catheter leg securement device", "location": "cc4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 48,
+    "fields": { "item": "statlock foley catheter leg tape", "location": "cc5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 49,
+    "fields": { "item": "rectal tube", "location": "cc5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 50,
+    "fields": {
+      "item": "viral transport swab tube kit / covid nasal swabs",
+      "location": "cc6"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 51,
+    "fields": { "item": "culture swab tube", "location": "cc7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 52,
+    "fields": { "item": "catheter urinary leg drainage bag", "location": "cc8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 53,
+    "fields": { "item": "yellow top urine collection tube", "location": "cc8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 54,
+    "fields": { "item": "enema kit", "location": "cc9" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 55,
+    "fields": {
+      "item": "salem sump nasogastric NG tube 14 & 16Fr",
+      "location": "cc10"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 56,
+    "fields": { "item": "Wound vac dressing", "location": "C1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 57,
+    "fields": {
+      "item": "graduated cylander measuring container",
+      "location": "C2"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 58,
+    "fields": { "item": "ostomy bag", "location": "C3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 59,
+    "fields": {
+      "item": "urine sample specimen collection kit cup / tubes",
+      "location": "C3"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 60,
+    "fields": { "item": "urine strainer", "location": "C3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 61,
+    "fields": { "item": "condom catheter", "location": "C4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 62,
+    "fields": { "item": "purewick external female catheter", "location": "C4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 63,
+    "fields": { "item": "urinary drainage bag", "location": "C5,C6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 64,
+    "fields": { "item": "underwear underpants", "location": "C7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 65,
+    "fields": { "item": "hydrogen peroxide solution", "location": "C7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 66,
+    "fields": { "item": "toilet hat specimen pan collector", "location": "D1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 67,
+    "fields": {
+      "item": "urostomy/ ostomy skin barrier flange and tape",
+      "location": "D2"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 68,
+    "fields": { "item": "urostomy pouch bag", "location": "D2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 69,
+    "fields": { "item": "urostomy drain tube adapter", "location": "D2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 70,
+    "fields": {
+      "item": "straight catheterization kit 15Fr",
+      "location": "D3-D8"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 71,
+    "fields": { "item": "foley catheter tray 14 & 16Fr", "location": "E1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 72,
+    "fields": { "item": "coude foley catheter tray", "location": "E2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 73,
+    "fields": {
+      "item": "kangaroo NG nasogastric feeding tube 14Fr",
+      "location": "E2"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 74,
+    "fields": { "item": "kangaroo pump feeding tube sets", "location": "E3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 75,
+    "fields": { "item": "CHG wipes", "location": "E4,E5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 76,
+    "fields": {
+      "item": "irrigation tray with 60ml syringe",
+      "location": "E6,E7"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 77,
+    "fields": { "item": ".9 NaCl normal saline", "location": "E8,F8,G8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 78,
+    "fields": { "item": "alcohol prep pads", "location": "F1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 79,
+    "fields": { "item": "medicine cups", "location": "F2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 80,
+    "fields": { "item": "pill cutter / splitter", "location": "F3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 81,
+    "fields": {
+      "item": "medicine/ med crusher / medication crushing cup",
+      "location": "F3"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 82,
+    "fields": { "item": "cotton balls", "location": "F4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 83,
+    "fields": { "item": "medication label", "location": "F4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 84,
+    "fields": { "item": "curos kuros caps strips", "location": "F4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 85,
+    "fields": { "item": "insulin pen needle", "location": "F5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 86,
+    "fields": { "item": "site scrub hub cap", "location": "F5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 87,
+    "fields": { "item": "micron filter needle", "location": "F6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 88,
+    "fields": { "item": "insulin syringe", "location": "F6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 89,
+    "fields": { "item": ".9 NaCl (50, 100, 250, 500ml)", "location": "F7, G7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 90,
+    "fields": { "item": "saline flush 10ml syringe", "location": "G1,H1,I1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 91,
+    "fields": { "item": "saline flush 3ml syringe", "location": "G2,H2,I2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 92,
+    "fields": { "item": "syringe 3 cc", "location": "G3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 93,
+    "fields": { "item": "syringe 10, 20, 50 cc", "location": "G4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 94,
+    "fields": { "item": "D5/ .45 NaCl", "location": "G5,G6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 95,
+    "fields": { "item": "D5/ .9 NaCl", "location": "G6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 96,
+    "fields": { "item": "D5W", "location": "G8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 97,
+    "fields": { "item": "needles", "location": "H3, H4, H5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 98,
+    "fields": { "item": "syringe 50 cc w/o needle", "location": "H4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 99,
+    "fields": { "item": "TOURNIQUET", "location": "H4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 100,
+    "fields": { "item": "0.45 NaCl", "location": "H5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 101,
+    "fields": { "item": "D5W 100 ml", "location": "H5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 102,
+    "fields": { "item": ".9 NACL 10 ml vial", "location": "H5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 103,
+    "fields": { "item": ".9 NaCl/ 20 KCl", "location": "H6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 104,
+    "fields": { "item": "D10W", "location": "H6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 105,
+    "fields": { "item": "D5/ .9 NaCl/ 20 KCL", "location": "H6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 106,
+    "fields": { "item": "D5/ LR lactated ringers", "location": "H7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 107,
+    "fields": { "item": "D5/ .45 NaCl/ 20 KCL", "location": "H7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 108,
+    "fields": { "item": "D5/ .45 NaCl/ 40 KCL", "location": "H7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 109,
+    "fields": { "item": "LR lactated ringers 1000ML", "location": "H8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 110,
+    "fields": { "item": "TB syringe", "location": "I3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 111,
+    "fields": { "item": "primary IV tubing", "location": "I4, I5, I6, I7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 112,
+    "fields": { "item": "sterile water solution", "location": "I8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 113,
+    "fields": {
+      "item": "introcan IV catheter 16, 18, 20, 22,24 gauge",
+      "location": "ii1, ii2, ii3"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 114,
+    "fields": { "item": "green cap luer lock IV access", "location": "ii3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 115,
+    "fields": { "item": "red syringe locking caps", "location": "ii4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 116,
+    "fields": { "item": "micron filter IV primary tubing", "location": "ii5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 117,
+    "fields": { "item": "IV extension tubing", "location": "ii5, ii6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 118,
+    "fields": { "item": "pca pump tubing", "location": "ii6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 119,
+    "fields": { "item": "needleless IV connector safeline", "location": "ii7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 120,
+    "fields": { "item": "scissor clamp blue hemostat", "location": "ii8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 121,
+    "fields": { "item": "vacutainer tube holder", "location": "ii8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 122,
+    "fields": {
+      "item": "accu check glucometer control bottles",
+      "location": "ii8"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 123,
+    "fields": { "item": "accu check glucometer strips", "location": "ii9" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 124,
+    "fields": { "item": "masks", "location": "J1, J2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 125,
+    "fields": { "item": "isolation gowns", "location": "J2,J3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 126,
+    "fields": { "item": "belt", "location": "J3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 127,
+    "fields": { "item": "secondary IV tubing", "location": "J4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 128,
+    "fields": { "item": "primary IV syringe tubing", "location": "J5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 129,
+    "fields": {
+      "item": ".9 NaCl irrigating solution (500/1000ml)",
+      "location": "J6"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 130,
+    "fields": { "item": "IV blood tubing", "location": "J6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 131,
+    "fields": { "item": "secondary IV syringe tubing", "location": "J7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 132,
+    "fields": { "item": ".9 NaCl irrigating bag 3000ml", "location": "J8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 133,
+    "fields": { "item": "gold SST blood sample tube", "location": "kk1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 134,
+    "fields": { "item": "blue Na sodium citrate tube", "location": "kk2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 135,
+    "fields": { "item": "lavender purple blood sample tube", "location": "kk2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 136,
+    "fields": { "item": "grey / gray blood sample tube", "location": "kk3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 137,
+    "fields": { "item": "green curos kuros caps strips", "location": "kk3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 138,
+    "fields": { "item": "red blood sample tube", "location": "kk4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 139,
+    "fields": { "item": "yellow blood sample tube", "location": "kk5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 140,
+    "fields": {
+      "item": "lavender purple whole blood 10ml sample tube",
+      "location": "kk5"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 141,
+    "fields": {
+      "item": "guiac hemaprompt occult blood test",
+      "location": "kk6"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 142,
+    "fields": { "item": "vacutainer blood transfer device", "location": "kk7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 143,
+    "fields": { "item": "cotton swab stick", "location": "kk8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 144,
+    "fields": { "item": "ultrasound gel", "location": "K1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 145,
+    "fields": { "item": "lube lubricant surgilube", "location": "K1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 146,
+    "fields": { "item": "tongue depressor", "location": "K1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 147,
+    "fields": {
+      "item": "hair beard shaving clipper/ trimmer heads",
+      "location": "K2"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 148,
+    "fields": { "item": "safety glasses", "location": "K2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 149,
+    "fields": { "item": "ABG line draw kit", "location": "K2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 150,
+    "fields": { "item": "stethescope", "location": "K2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 151,
+    "fields": { "item": "latex sterile gloves", "location": "K3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 152,
+    "fields": { "item": "oral thermometer sheath covers", "location": "K4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 153,
+    "fields": { "item": "synthetic sterile gloves", "location": "K4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 154,
+    "fields": {
+      "item": "accucheck blood glucose lancet needle",
+      "location": "K4"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 155,
+    "fields": {
+      "item": "bactec lytic aerobic / anaerobic culture bottle",
+      "location": "K5"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 156,
+    "fields": { "item": "sterile water nebulizer kit", "location": "K6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 157,
+    "fields": { "item": "aerochamber inhaler spacer", "location": "K6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 158,
+    "fields": { "item": "aerobika", "location": "K6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 159,
+    "fields": { "item": "sterile water solution 500 ml", "location": "K6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 160,
+    "fields": { "item": "oxygen humidifier", "location": "K7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 161,
+    "fields": { "item": "asthma check peak flow meter", "location": "K7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 162,
+    "fields": { "item": "nebulizer kit", "location": "K7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 163,
+    "fields": { "item": "oxygen earosol tubing", "location": "K8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 164,
+    "fields": { "item": "thoracic catheter 28 Fr tube", "location": "ll1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 165,
+    "fields": { "item": "corrugated tubing connector", "location": "ll1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 166,
+    "fields": { "item": "straight adapter", "location": "ll2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 167,
+    "fields": { "item": "christmas tree oxygen connector", "location": "ll2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 168,
+    "fields": { "item": "oxygen tubing connection nut", "location": "ll3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 169,
+    "fields": { "item": "air valved tee adapter", "location": "ll3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 170,
+    "fields": { "item": "mucus specimen trap", "location": "ll4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 171,
+    "fields": { "item": "water bag trap", "location": "ll4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 172,
+    "fields": { "item": "tracheostomy neck ties", "location": "ll5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 173,
+    "fields": { "item": "tracheostomy tube", "location": "ll5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 174,
+    "fields": { "item": "ventilator bacteria filter", "location": "ll6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 175,
+    "fields": {
+      "item": "oxygen nuts and nipples with chain",
+      "location": "ll6"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 176,
+    "fields": { "item": "paper tape measure", "location": "ll7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 177,
+    "fields": {
+      "item": "Ted hose stocking tape measuring strip",
+      "location": "ll7"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 178,
+    "fields": { "item": "Ted hose stockings", "location": "ll8, ll9" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 179,
+    "fields": { "item": "suction canister", "location": "L1,L2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 180,
+    "fields": { "item": "tracheostomy suction kit", "location": "L3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 181,
+    "fields": { "item": "suction tubing wall connection", "location": "L3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 182,
+    "fields": { "item": "yankauer suction tube", "location": "L3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 183,
+    "fields": { "item": "suction tubing", "location": "L4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 184,
+    "fields": {
+      "item": "tracheostomy disposable inner cannula",
+      "location": "L5"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 185,
+    "fields": {
+      "item": "nasogastric NG tube holder nose tape",
+      "location": "L5"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 186,
+    "fields": { "item": "tracheostomy mask", "location": "L5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 187,
+    "fields": { "item": "tracheostomy trach care kit", "location": "L5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 188,
+    "fields": { "item": "multi vent mask", "location": "L6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 189,
+    "fields": {
+      "item": "oxygen nonrebreather non-rebreather non rebreather mask",
+      "location": "L6"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 190,
+    "fields": { "item": "oxygen elongated mask", "location": "L6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 191,
+    "fields": { "item": "nasal cannula oxygen tubing", "location": "L7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 192,
+    "fields": { "item": "oxygen tubing extension", "location": "L7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 193,
+    "fields": { "item": "nebulizer", "location": "L8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 194,
+    "fields": { "item": "ambu bag resuscitator with mask", "location": "L8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 195,
+    "fields": { "item": "incentive spirometer", "location": "L8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 196,
+    "fields": { "item": "chest tube insertion kit", "location": "M1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 197,
+    "fields": { "item": "lumbar puncture kit", "location": "M1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 198,
+    "fields": { "item": "triple lumen central line tray", "location": "M1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 199,
+    "fields": { "item": "safety chair belt, lap buddy", "location": "M2,M3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 200,
+    "fields": { "item": "thermometer probe covers", "location": "M4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 201,
+    "fields": {
+      "item": "sheath cover for digital thermometer",
+      "location": "M4"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 202,
+    "fields": { "item": "digital thermometer", "location": "M4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 203,
+    "fields": { "item": "chair alarm belt", "location": "M5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 204,
+    "fields": { "item": "cervical collar", "location": "M5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 205,
+    "fields": { "item": "chair alarm pads", "location": "M6,M7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 206,
+    "fields": { "item": "bed alarm pads", "location": "M8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 207,
+    "fields": { "item": "paracentesis / thoracentesis tray", "location": "N1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 208,
+    "fields": {
+      "item": "oasis dry suction chest drainage atrium system",
+      "location": "N1"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 209,
+    "fields": { "item": "arm splint", "location": "N2, N3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 210,
+    "fields": { "item": "bariatric PCB calf sleeve", "location": "N3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 211,
+    "fields": { "item": "heelbo", "location": "N4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 212,
+    "fields": { "item": "telemetry pouch", "location": "N4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 213,
+    "fields": { "item": "ziplock bag", "location": "N5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 214,
+    "fields": { "item": "cadaver bag", "location": "N5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 215,
+    "fields": { "item": "telemetry cables", "location": "N6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 216,
+    "fields": { "item": "telemetry electrodes stickers", "location": "N7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 217,
+    "fields": { "item": "AED / CPR electrode pads", "location": "N7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 218,
+    "fields": { "item": "blue linen bags", "location": "N8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 219,
+    "fields": { "item": "ID alert wrist bands", "location": "oo1-oo4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 220,
+    "fields": { "item": "safety pins", "location": "oo5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 221,
+    "fields": { "item": "binder spine ID pockets", "location": "oo5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 222,
+    "fields": { "item": "lip balm chapstick", "location": "oo6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 223,
+    "fields": { "item": "mouth gel moisturizer", "location": "oo6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 224,
+    "fields": { "item": "combs", "location": "oo7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 225,
+    "fields": { "item": "nail file", "location": "oo8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 226,
+    "fields": { "item": "nail polish remover pads", "location": "oo8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 227,
+    "fields": { "item": "deodorant", "location": "oo9" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 228,
+    "fields": { "item": "dental floss", "location": "oo9" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 229,
+    "fields": { "item": "bandaids", "location": "oo10" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 230,
+    "fields": { "item": "ear plugs", "location": "oo10" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 231,
+    "fields": { "item": "lovenox patient discharge kit", "location": "O1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 232,
+    "fields": { "item": "tissues", "location": "O1,O2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 233,
+    "fields": {
+      "item": "multipurpose container/ denture cups",
+      "location": "O3"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 234,
+    "fields": { "item": "permanent marker sharpie", "location": "O3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 235,
+    "fields": { "item": "headphones earphones headset", "location": "O3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 236,
+    "fields": { "item": "battery batteries", "location": "O4, O5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 237,
+    "fields": { "item": "binder chart insert paper tags", "location": "O4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 238,
+    "fields": { "item": "deodorizer odor room spray", "location": "O5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 239,
+    "fields": { "item": "tamper evident seal bag", "location": "O5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 240,
+    "fields": { "item": "drawstring bag", "location": "O6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 241,
+    "fields": { "item": "socks", "location": "O6, O7, O8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 242,
+    "fields": { "item": "ice packs", "location": "P1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 243,
+    "fields": { "item": "pink feminine / incontinence pads", "location": "P1" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 244,
+    "fields": {
+      "item": "phytoplex purple top lotion skin moisturizer",
+      "location": "P2"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 245,
+    "fields": { "item": "shaving gel", "location": "P2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 246,
+    "fields": {
+      "item": "incontinence cream butt paste orange top",
+      "location": "P2"
+    }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 247,
+    "fields": { "item": "razor", "location": "P2" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 248,
+    "fields": { "item": "lotion", "location": "P3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 249,
+    "fields": { "item": "castile soap & towelette wipes", "location": "P3" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 250,
+    "fields": { "item": "denture cleaning tablets", "location": "P4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 251,
+    "fields": { "item": "toothbrush", "location": "P4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 252,
+    "fields": { "item": "mouth swabs pink oral swabs", "location": "P4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 253,
+    "fields": { "item": "toothpaste", "location": "P4" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 254,
+    "fields": { "item": "mouthwash", "location": "P5" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 255,
+    "fields": { "item": "shampoo cap", "location": "P6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 256,
+    "fields": { "item": "oral swab mouth care kit", "location": "P6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 257,
+    "fields": { "item": "sleep mask", "location": "P6" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 258,
+    "fields": { "item": "hair detangler", "location": "P7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 259,
+    "fields": { "item": "no rinse shampoo", "location": "P7" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 260,
+    "fields": { "item": "shampoo", "location": "P8" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 261,
+    "fields": { "item": "pink emesis basin", "location": "district" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 262,
+    "fields": { "item": "pink wash basin", "location": "district" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 263,
+    "fields": { "item": "bedpan", "location": "district" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 264,
+    "fields": { "item": "gloves", "location": "district" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 265,
+    "fields": { "item": "urinal", "location": "district" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 266,
+    "fields": { "item": "wipes", "location": "district" }
+  },
+  {
+    "model": "home.StorageSixA",
+    "pk": 267,
+    "fields": { "item": "purple top alcohol wipes", "location": "district" }
+  }
+]

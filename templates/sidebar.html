@@ -1,0 +1,122 @@
+{% load static %}
+<a id="show-sidebar" href="#" style="color: #000; padding-left: 20px; padding-top: 6px; font-size: 1.4em; z-index: 999">
+    <i class="fas fa-bars"></i>
+</a>
+<nav id="sidebar" class="sidebar-wrapper">
+    <div class="sidebar-content">
+        <div class="sidebar-brand">
+            <a href="/">Alvaro</a>
+            <div id="close-sidebar">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <!-- sidebar-search  -->
+        <div class="sidebar-menu">
+            <ul>
+                {% comment %} <li class="header-menu">
+                    <span>General</span>
+                </li> {% endcomment %}
+
+                <!-- Dropdown Example -->
+                <!-- <li class="sidebar-dropdown">
+                        <a href="#">
+                            <i class="fa fa-tachometer-alt"></i>
+                            <span>Dashboard</span>
+                            <span class="badge badge-pill badge-warning">New</span>
+                        </a>
+                        <div class="sidebar-submenu">
+                            <ul>
+                                <li>
+                                    <a href="#">Dashboard 1
+                                        <span class="badge badge-pill badge-success">Pro</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Dashboard 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dashboard 3</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li> -->
+
+                <li>
+                    <a href="/">
+                        <i class="fa fa-home"></i>
+
+                        {% comment %} <span>Home</span> {% endcomment %}
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'sixA' %}">
+                        {% comment %} <i class="fa fa-list"></i> {% endcomment %}
+                        <span>6A</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'sixB' %}">
+                        {% comment %} <i class="fa fa-list"></i> {% endcomment %}
+                        <span>6B</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'sixC' %}">
+                        {% comment %} <i class="fa fa-list"></i> {% endcomment %}
+                        <span>6C</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'sixE' %}">
+                        {% comment %} <i class="fa fa-list"></i> {% endcomment %}
+                        <span>6E</span>
+                    </a>
+                </li>
+
+                <hr class="pt-5 pb-5">
+
+                {% if user.is_authenticated %}
+                <li>
+                    <a>
+                    <span class="mt-5"> Hi {{ user.username }}! </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'logout' %}">Log Out</a>
+                </li>
+                {% comment %} <li><a href="{% url 'password_reset' %}">Reset Password</a></li> {% endcomment %}
+                {% else %}
+                <h6 class="text-white pt-5 text-center">You are not logged in</h6>
+                <li>
+                    <a href="{% url 'login' %}">Log In</a>
+                </li>
+                {% endif %}
+
+                {% comment %} <li class="header-menu">
+                    <span>Other Sections</span>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa fa-list"></i>
+                        <span>6A</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-list"></i>
+                        <span>6B</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-list"></i>
+                        <span>6C</span>
+                    </a>
+                </li> {% endcomment %}
+            </ul>
+        </div>
+        <!-- sidebar-menu  -->
+    </div>
+
+</nav>

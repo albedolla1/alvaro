@@ -1,0 +1,46 @@
+<style>
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        #search {
+            width: 45%;
+            position: fixed;
+            right: 60px;
+        }
+    }
+
+    /* Desktops and laptops ----------- */
+    @media only screen and (min-width : 1224px) {
+        #search {
+            width: 25%;
+            position: fixed;
+            right: 85px;
+        }
+    }
+
+    /* Mobile ----------- */
+    @media only screen and (max-width : 767px) {
+        #search {
+            width: 65%;
+            position: fixed;
+            right: 40px;
+        }
+
+
+    }
+</style>
+
+<nav style="width: 100vw; height: 10vh; position: fixed; padding: 14px; background-color: #fff; z-index: 555">
+    <div id="search">
+        <form method="GET">
+            {% csrf_token %}
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" name="q" placeholder="Search Items..." required>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</nav>

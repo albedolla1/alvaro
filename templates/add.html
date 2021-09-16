@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <form method="post">
+        {% csrf_token %}
+        <div class="item">
+            <div class="label">
+                {{form.item.label}}
+            </div>
+            {{form.item}}
+            {{form.item.required}}
+        </div>
+        <div class="location">
+            <div class="label">
+                {{form.location.label}}
+            </div>
+            {{form.location}}
+        </div>
+
+        <button class="btn btn-primary mt-3 ">
+            Add 
+            <span class="pl-2"><i class="fas fa-plus"></i></span>
+        </button>
+    </form>
+
+{% endblock content %}
+

@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="text-center pt-3 pt-md-5">
+        <a href="/" class="btn bg-secondary px-3 py-2 rounded mb-4 text-white border-none"> <i class="fa fa-home"></i> </a>
+        <a href="{% url 'sixB' %}" class="btn bg-secondary px-4 py-2 rounded mb-4 text-white border-none">All</a>
+         {% if user.is_staff %}
+        <a href="{% url 'addSixB' %}" class="btn bg-secondary px-4 py-2 rounded mb-4 text-white border-none">
+            <span class=""><i class="fas fa-plus"></i></span>
+        </a>
+        {% endif %}
+        {% include 'components/links.html' %}
+    </div>
+
+    <div class="mx-3 pb-1 d-md-none ">
+        <div class="row text-center" style="font-size: 0.9em; font-weight: bold">
+            <div class="col-6 border py-2"> <small> ITEMS </small></div>
+            <div class="col-6 border py-2"> <small> LOCATION </small></div>
+        </div>
+    </div>
+{% endblock content %}
+
+{% block table %}
+
+
+
+<tbody>
+    <thead>
+        <tr>
+            <th scope="col">Items</th>
+            <th scope="col">Location</th>
+            {% if user.is_staff %}
+            <th scope="col">Edit & Delete</th>
+            {% endif %}
+        </tr>
+    </thead>
+    {% for i in items %}
+    <tr class="hide">
+        <td data-label="Items">{{ i.item|title }}</td>
+        <td data-label="Location">{{ i.location|upper }}</td>
+        {% if user.is_staff %}
+        <td>
+            <div class="d-flex justify-content-center align-content-center">
+                <a href="{% url 'editSixB' i.pk %}" class="btn btn-sm bg-secondary px-3 py-2 rounded text-white border-none mr-2">
+                <span><i class="fas fa-pen"></i></span>
+                </a>
+
+                <a href="{% url 'deleteSixB' i.pk %}" class="btn btn-sm bg-secondary px-3 py-2 rounded text-white border-none">
+                <span ><i class="fas fa-trash"></i></span>
+                </a>
+            </div>
+        </td>
+        {% endif %}
+
+    </tr>
+    
+    <tr class="d-md-none row p-0 m-0">
+
+        <td class="col-6 text-center align-items-center">{{ i.item|title }}</td>
+        <td class="col-6 text-center align-items-center">{{ i.location|upper }}</td>
+        {% if user.is_staff %}
+        <td class="col-6 text-center align-items-center">
+            <a href="{% url 'editSixB' i.pk %}" class="btn btn-sm bg-secondary px-2 py-1 rounded text-white border-none mr-2">
+            <span><i class="fas fa-pen"></i></span>
+            </a>
+        </td>
+        <td class="col-6 text-center align-items-center">
+            <a href="{% url 'deleteSixB' i.pk %}" class="btn btn-sm bg-secondary px-2 py-1 rounded text-white border-none">
+            <span ><i class="fas fa-trash"></i></span>
+            </a>
+        </td>
+        {% endif %}
+</tr>
+    {% endfor %}
+</tbody>
+
+{% endblock table %}
