@@ -13,7 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY') 
 DEBUG = config('DEBUG', default=True, cast=bool) 
 
-ALLOWED_HOSTS = ['papansarkar.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
