@@ -10,7 +10,7 @@ from django.contrib.auth.decorators import login_required
 from .forms import SixAForm, SixBForm, SixCForm, SixEForm
 from django.utils.decorators import method_decorator
 
-
+# View for create account handling
 class SignUpView(generic.CreateView):
     form_class = UserCreationForm
     success_url = reverse_lazy('login')
@@ -19,6 +19,7 @@ class SignUpView(generic.CreateView):
 
 def home(request):
     context = {}
+    # Storing all the table data information inside this 'sixa, sixb, sixc and sixe', this variable will be passed inside index.html
     context['sixa'] = StorageSixA.objects.all()    
     context['sixb'] = StorageSixB.objects.all()    
     context['sixc'] = StorageSixC.objects.all()    
@@ -28,7 +29,10 @@ def home(request):
 
 def sixA(request):
     context = {}
+    # Storing all sixa table info inside items variable
     context['items'] = StorageSixA.objects.all()
+
+    # This snippet is for searching and filtering information
     query = request.GET.get('q')
     if query:
         if query == 'all':
@@ -81,8 +85,9 @@ def sixE(request):
     return render(request, "sixE.html", context)
 
 
-# Add
+# Add More rows to the sixA Table Handler View
 @method_decorator(login_required, name='dispatch')
+# CreateView refers to a view (logic) to create an instance of a table in the database.
 class AddSixA(CreateView):
     model = StorageSixA
     form_class = SixAForm
@@ -90,7 +95,9 @@ class AddSixA(CreateView):
 
     success_url = reverse_lazy('sixA')\
 
+# Add More rows to the sixB Table Handler View
 @method_decorator(login_required, name='dispatch')
+# CreateView refers to a view (logic) to create an instance of a table in the database.
 class AddSixB(CreateView):
     model = StorageSixB
     form_class = SixBForm
@@ -98,7 +105,9 @@ class AddSixB(CreateView):
 
     success_url = reverse_lazy('sixB')
 
+# Add More rows to the sixC Table Handler View
 @method_decorator(login_required, name='dispatch')
+# CreateView refers to a view (logic) to create an instance of a table in the database.
 class AddSixC(CreateView):
     model = StorageSixC
     form_class = SixCForm
@@ -106,7 +115,9 @@ class AddSixC(CreateView):
 
     success_url = reverse_lazy('sixC')
 
+# Add More rows to the sixE Table Handler View
 @method_decorator(login_required, name='dispatch')
+# CreateView refers to a view (logic) to create an instance of a table in the database.
 class AddSixE(CreateView):
     model = StorageSixE
     form_class = SixEForm
@@ -115,8 +126,9 @@ class AddSixE(CreateView):
     success_url = reverse_lazy('sixE')
 
 
-# Edit
+# Edit / Update existing rows
 @method_decorator(login_required, name='dispatch')
+# UpdateView refers to a view (logic) to update a particular instance of a table from the database with some extra details
 class EditSixA(UpdateView):
     model = StorageSixA
     form_class = SixAForm
@@ -144,8 +156,9 @@ class EditSixE(UpdateView):
     template_name = 'edit.html'
     success_url = reverse_lazy('sixE')
 
-# Delete
+# Delete rows
 @method_decorator(login_required, name='dispatch')    
+# Delete View refers to a view (logic) to delete a particular instance of a table from the database
 class DeleteSixA(DeleteView):
     model = StorageSixA
     template_name = 'delete.html'

@@ -1,0 +1,28 @@
+
+A fixture is a collection of data that Django knows how to import into a database. 
+The most straightforward way of creating a fixture if you've already got some data 
+is to use the manage.py dumpdata command. ... Each time you run loaddata , the data 
+will be read from the fixture and re-loaded into the database.
+
+Using this, we can load all the fixture file information into tables. This files/information 
+has a specific pattern, so that it matches and easily loads into the tables.
+
+For example:
+
+    "model": "home.StorageSixA",
+        "pk": 2,
+        "fields": {
+        "item": "vaseline / petroleum gauze dressing",
+        "location": "aa2"
+        }
+
+    Here, we are saying to load this information to sixA model by mentioning -> "model": "home.StorageSixA",
+
+    "pk": 2,
+    Mentioning Primary key
+
+    "fields": {
+        "item": "vaseline / petroleum gauze dressing",
+        "location": "aa2"
+        }
+    This is the data
